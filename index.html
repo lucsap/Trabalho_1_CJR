@@ -34,65 +34,62 @@
                 </div>
             </div>
             
-            <label for="nascimento">Data de nascimento:</label>
-            <input type="date" id="nascimento" class="Linput" required><br><br>
-
-            <label for="estado">Estado:</label>
-            <select id="estado">
-                <option selected disabled value="">Selecione</option>
-                <option>AC - Acre</option>
-                <option>AL - Alagoas</option>
-                <option>AP - Amapá</option>
-                <option>AM - Amazonas</option>
-                <option>BA - Bahia</option>
-                <option>CE - Ceará</option>
-                <option>ES - Espírito Santo</option>
-                <option>GO - Goiás</option>
-                <option>MA - Maranhão</option>
-                <option>MT - Mato Grosso</option>
-                <option>MS - Mato Grosso do Sul</option>
-                <option>MG - Minas Gerais</option>
-                <option>PA - Pará</option>
-                <option>PB - Paraíba</option>
-                <option>PR - Paraná</option>
-                <option>PE - Pernambuco</option>
-                <option>PI - Piauí</option>
-                <option>RJ - Rio de Janeiro</option>
-                <option>RN - Rio Grande do Norte</option>
-                <option>RS - Rio Grande do Sul</option>
-                <option>RO - Rondônia</option>
-                <option>RR - Roraima</option>
-                <option>SC - Santa Catarina</option>
-                <option>SP - São Paulo</option>
-                <option>SE - Sergipe</option>
-                <option>TO - Tocantins</option>
-                <option>DF - Distrito Federal</option>
-            </select><br><br>
-
-            <label for="servico">Selecione o serviço desejado:</label><br>
-                <input type="radio" name="servico" value="orcamento" id="orcamento" checked>
-                <label for="orcamento">Orçamento</label>
+            <div class="resto">
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" id="nascimento" class="Linput" required><br><br>
+                <label for="estado">Estado:</label>
+                <select id="estado">
+                    <option selected disabled value="">Selecione</option>
+                    <option>AC - Acre</option>
+                    <option>AL - Alagoas</option>
+                    <option>AP - Amapá</option>
+                    <option>AM - Amazonas</option>
+                    <option>BA - Bahia</option>
+                    <option>CE - Ceará</option>
+                    <option>ES - Espírito Santo</option>
+                    <option>GO - Goiás</option>
+                    <option>MA - Maranhão</option>
+                    <option>MT - Mato Grosso</option>
+                    <option>MS - Mato Grosso do Sul</option>
+                    <option>MG - Minas Gerais</option>
+                    <option>PA - Pará</option>
+                    <option>PB - Paraíba</option>
+                    <option>PR - Paraná</option>
+                    <option>PE - Pernambuco</option>
+                    <option>PI - Piauí</option>
+                    <option>RJ - Rio de Janeiro</option>
+                    <option>RN - Rio Grande do Norte</option>
+                    <option>RS - Rio Grande do Sul</option>
+                    <option>RO - Rondônia</option>
+                    <option>RR - Roraima</option>
+                    <option>SC - Santa Catarina</option>
+                    <option>SP - São Paulo</option>
+                    <option>SE - Sergipe</option>
+                    <option>TO - Tocantins</option>
+                    <option>DF - Distrito Federal</option>
+                </select><br><br>
+                <div class="radios">
+                    <label for="servico">Selecione o serviço desejado:</label><br>
+                        <input type="radio" name="servico" value="orcamento" id="orcamento" checked>
+                        <label for="orcamento">Orçamento</label><br>
                 
-                <input type="radio" name="servico" value="projeto" id="projeto">
-                <label for="projeto">Iniciar projeto</label>
+                        <input type="radio" name="servico" value="projeto" id="projeto">
+                        <label for="projeto">Iniciar projeto</label><br>
                 
-                <input type="radio" name="servico" value="seo" id="seo">
-                <label for="seo">Optimização de site - SEO</label><br><br>
-
-            <label for="empresa">Nome da sua empresa:</label>
-            <input type="text" id="empresa" required><br><br>
-
-            <label for="termos" class="Llabel">Aceito os termos e condições:</label>
-            <input id="termos" type="checkbox" required><br>
-
-            <label for="att" class="Llabel">Receber atualizações por email:</label>
-            <input id="att" type="checkbox"><br><br>
-
-            <label for="desc">Descreva quais suas expectativas para o site da sua empresa:</label><br>
-            <textarea name="desc" id="desc" cols="30" rows="10"></textarea><br><br>
-
-            <label for="enviar"></label>
-            <input type="submit" value="Finalizar Cadastro" id="enviar">
+                        <input type="radio" name="servico" value="seo" id="seo">
+                        <label for="seo">Optimização de site - SEO</label><br><br>
+                </div>
+                <label for="empresa">Nome da sua empresa:</label>
+                <input type="text" id="empresa" required><br><br>
+                <label for="termos" class="Llabel">Aceito os termos e condições:</label>
+                <input id="termos" type="checkbox" required><br>
+                <label for="att" class="Llabel">Receber atualizações por email:</label>
+                <input id="att" type="checkbox"><br><br>
+                <label for="desc">Descreva quais suas expectativas para o trabalho que será realizado:</label><br>
+                <textarea name="desc" id="desc" cols="30" rows="10"></textarea><br><br>
+                <label for="enviar"></label>
+                <input type="submit" value="Finalizar Cadastro" id="enviar">
+            </div>
         </div>
     </form>
 </body>
