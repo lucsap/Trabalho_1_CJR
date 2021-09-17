@@ -15,17 +15,24 @@
             <p>Preencha os campos abaixo para dar prosseguimento com seu atendimento</p>
         </div>
         <div class="dados">
-            <label for="nome">Digite o seu nome:</label>
-            <input type="text" id="nome" class="Linput" required>
-
-            <label for="sobre_nome">Digite o seu sobrenome:</label>
-            <input type="text" id="sobre_nome" class="Linput" required><br><br>
-
-            <label for="email">Email: </label>
-            <input type="email" id="email" class="Linput" required>
-
-            <label for="conf_email">Confirmação de Email:</label>
-            <input type="email" id="conf_email" class="Linput" required><br><br>
+            <div class="pai_labels">
+                <div class="labels">
+                    <label for="nome">Digite o seu nome:</label><br>
+                    <input type="text" id="nome" class="Linput" required>
+                </div>
+                <div class="labels">
+                    <label for="sobre_nome">Digite o seu sobrenome:</label><br>
+                    <input type="text" id="sobre_nome" class="Linput" required><br><br>
+                </div>
+                <div class="labels">
+                    <label for="email">Email: </label><br>
+                    <input type="email" id="email" class="Linput" required>
+                </div>
+                <div class="labels">
+                    <label for="conf_email">Confirmação de Email:</label><br>
+                    <input type="email" id="conf_email" class="Linput" required><br><br>
+                </div>
+            </div>
             
             <label for="nascimento">Data de nascimento:</label>
             <input type="date" id="nascimento" class="Linput" required><br><br>
