@@ -1,24 +1,37 @@
 body {
     margin: 0.5%;
     padding: 0.5%;
+    background-color: #0263A3;
 }
 
 form {
     display: block;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(218, 218, 218);
-    border-radius: 2%;
+    background-color: #D7ECFA;
+    border-radius: 1rem;
+    padding: 1em 2% 2% 2%;
+    color: #5A3E1D;
+}
+
+h1 {
+    margin-top: 0.6%;
 }
 
 .titulo {
-    background-color: rgb(105, 102, 255);
-    margin: 2em;
-    padding: 2%;
+    background-color: #D7ECFA;
+    margin-bottom: 2rem;
     text-align: center;
+    border-radius: 1em 1em;
 }
 
-.dados {
+/* .dados {
     margin: 2em;
     padding: 2%;
-    background-color: rgb(115, 179, 108);
+    background-color: #FDEED7;
+    border-radius: 1em 1em;
+} */
+
+input {
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.425);
 }
