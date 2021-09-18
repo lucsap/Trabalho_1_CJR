@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=VT323&display=swap');
+
+
 body {
     margin: 0.5%;
     padding: 0.5%;
@@ -8,7 +13,7 @@ form {
     padding: 1em 2% 2% 2%;
     background-color: #D7ECFA;
     color: #5A3E1D;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Righteous', 'Times New Roman', Times, serif;
     justify-content: center;
     text-align: center;
     border-radius: 1rem;
@@ -19,8 +24,10 @@ form {
     background-color: #0263A3;
     color: #FDECD7;
     margin-bottom: 2rem;
-    text-align: center;
+    padding-bottom: 0.1%;
     border-radius: 1em 1em;
+    font-family: 'Righteous';
+    text-align: center;
 }
 
 .dados {
@@ -49,7 +56,7 @@ h1 {
 input, textarea {
     border-radius: 5px;
     box-shadow: 2px 2px rgba(1, 52, 74, 0.363);
-    padding: 0px 30px;
+    padding: 0.1em 3em;
 }
 
 #enviar {
@@ -71,90 +78,60 @@ input, textarea {
 .radios {
     display: block;
     text-align: left;
-    padding: 0em 10em;
+    padding: 0em 30em;
     
 }
 
-@media screen and (min-width: 1024px) {
-
+@media screen and (min-width: 1201px) {
+    .radios {
+        display: block;
+        text-align: left;
+        padding: 0em 19em;
+    }   
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    html {
-        font-size: 25%;
-    }
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
 
-    body {
-        font-size: 5.3rem;
-    }
-
-    header#menu {
-        position: fixed;
-        text-align: center;
-        background-color: rgba(00, 00, 00, 0.6);
-        width: 100%;
-        max-width: 220.0rem;
-        font-size: 5.4rem;
-        left: 0%;
-    }
-
-    ul {
-        padding: 12px 0px;
-    }
-
-    a {
-        padding: 3.5px;
-    }
-
-    h1 {
-        margin-top: 75px;
-    }
-
-    h2 {
-        font-size: 6.2rem;
-    }
-
-    footer#rodape {
-        font-size: 4.0rem;
+    .radios {
+        display: block;
+        text-align: left;
+        padding: 0em 10em;
     }
 }
 
-@media screen and (max-width: 767px) {
-    html {
-        font-size: 25%;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .radios {
+        display: block;
+        text-align: left;
+        padding: 0em 9em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .dados {
+        margin-top: 1em;
+        text-align: left;
     }
 
-    body {
-        font-size: 5.3rem;
-    }
+    .radios {
+        display: block;
+        text-align: left;
+        padding: 0em 1em;
+    }   
+}
 
-    header#menu {
-        position: fixed;
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .dados {
+        margin-top: 3em;
         text-align: center;
-        background-color: rgba(00, 00, 00, 0.6);
-        width: 100%;
-        max-width: 220.0rem;
-        font-size: 5.4rem;
-        left: 0%;
     }
 
-    ul {
-        padding: 12px 0px;
-    }
-
-    a {
-        padding: 3.5px;
-    }
-
-    h1 {
-        margin-top: 75px;
-    }
-
-    h2 {
-        font-size: 6.2rem;
-    }
-
-    footer#rodape {
-        font-size: 4.0rem;
-    }
+    .radios {
+        display: block;
+        text-align: left;
+        padding: 0em 1em;
+    }       
 }
