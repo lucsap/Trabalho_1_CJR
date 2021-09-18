@@ -13,10 +13,11 @@ form {
     padding: 1em 2% 2% 2%;
     background-color: #D7ECFA;
     color: #5A3E1D;
-    font-family: 'Righteous', 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
     text-align: center;
     border-radius: 1rem;
+    box-shadow: 3px 3px rgba(1, 52, 74, 0.363);
     font-size: 1.1em;
 }
 
@@ -26,6 +27,7 @@ form {
     margin-bottom: 2rem;
     padding-bottom: 0.1%;
     border-radius: 1em 1em;
+    box-shadow: 2px 2px rgba(1, 52, 74, 0.363);
     font-family: 'Righteous';
     text-align: center;
 }
@@ -82,7 +84,7 @@ input, textarea {
     
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) and (max-width: 1599px) {
     .radios {
         display: block;
         text-align: left;
